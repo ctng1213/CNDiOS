@@ -14,6 +14,7 @@
 		7B4EB3B619F39AAE001E388B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B4EB3B519F39AAE001E388B /* Images.xcassets */; };
 		7B4EB3B919F39AAE001E388B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B4EB3B719F39AAE001E388B /* LaunchScreen.xib */; };
 		7B4EB3C519F39AAE001E388B /* CNDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EB3C419F39AAE001E388B /* CNDTests.m */; };
+		7B4EB3D919F3A6EF001E388B /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4EB3D819F3A6EF001E388B /* Configuration.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		7B4EB3BE19F39AAE001E388B /* CNDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CNDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B4EB3C319F39AAE001E388B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B4EB3C419F39AAE001E388B /* CNDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNDTests.m; sourceTree = "<group>"; };
+		7B4EB3D819F3A6EF001E388B /* Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Configuration.m; sourceTree = "<group>"; };
+		7B4EB3DA19F3A6FA001E388B /* Configuration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,13 @@
 		7B4EB39C19F39AAE001E388B = {
 			isa = PBXGroup;
 			children = (
+				7B4EB3D619F3A6AC001E388B /* Utilities */,
+				7B4EB3D519F3A6A2001E388B /* ModelHelpers */,
+				7B4EB3D419F3A69C001E388B /* ViewHelpers */,
+				7B4EB3D319F3A695001E388B /* ViewControllers */,
+				7B4EB3D219F3A68B001E388B /* Storyboards */,
+				7B4EB3D119F3A686001E388B /* Models */,
+				7B4EB3D019F3A681001E388B /* Library */,
 				7B4EB3A719F39AAE001E388B /* CND */,
 				7B4EB3C119F39AAE001E388B /* CNDTests */,
 				7B4EB3A619F39AAE001E388B /* Products */,
@@ -98,6 +108,8 @@
 			children = (
 				7B4EB3A919F39AAE001E388B /* Info.plist */,
 				7B4EB3AA19F39AAE001E388B /* main.m */,
+				7B4EB3D819F3A6EF001E388B /* Configuration.m */,
+				7B4EB3DA19F3A6FA001E388B /* Configuration.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +129,63 @@
 				7B4EB3C319F39AAE001E388B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B4EB3D019F3A681001E388B /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		7B4EB3D119F3A686001E388B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		7B4EB3D219F3A68B001E388B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		7B4EB3D319F3A695001E388B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7B4EB3D419F3A69C001E388B /* ViewHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				7B4EB3D719F3A6BA001E388B /* TextFieldDelegates */,
+			);
+			name = ViewHelpers;
+			sourceTree = "<group>";
+		};
+		7B4EB3D519F3A6A2001E388B /* ModelHelpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ModelHelpers;
+			sourceTree = "<group>";
+		};
+		7B4EB3D619F3A6AC001E388B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		7B4EB3D719F3A6BA001E388B /* TextFieldDelegates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TextFieldDelegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +290,7 @@
 			files = (
 				7B4EB3B119F39AAE001E388B /* ViewController.m in Sources */,
 				7B4EB3AE19F39AAE001E388B /* AppDelegate.m in Sources */,
+				7B4EB3D919F3A6EF001E388B /* Configuration.m in Sources */,
 				7B4EB3AB19F39AAE001E388B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +482,7 @@
 				7B4EB3CA19F39AAE001E388B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B4EB3CB19F39AAE001E388B /* Build configuration list for PBXNativeTarget "CNDTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +491,7 @@
 				7B4EB3CD19F39AAE001E388B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
